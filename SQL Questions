@@ -1,10 +1,30 @@
 1. In SQL query execution what is the difference between CTE (common table expression) and TEMP tables and when to use?
 
-1. CTE are executed in Memory where as temporary tables are physically created on disk
-2. CTEs exist only for the duration of a particular query, while temporary tables can be used in other queries as many times since these stored on disk
-3. We can explicitly create, alter, or drop a temporary table, but it is not possible in CTE.
-4. CTEs are only accessible within the query that defines them, while temporary tables can be accessed by multiple queries within the same batch
-5. CTEs are more efficient for small data sets, while temporary tables may be more efficient for larger data sets
-6. Temporary tables can have constraints and indexes, while CTEs cannot.
-7.  CTEs are useful for making code easier to write, reusing code, and handling complex scenarios like recursive queries. 
-8. Temporary tables are useful when we need to refer to output multiple times, pass data between stored procedures, or break a query into phases.
+        1. CTE are executed in Memory where as temporary tables are physically created on disk
+        2. CTEs exist only for the duration of a particular query, while temporary tables can be used in other queries as many times since these stored on disk
+        3. We can explicitly create, alter, or drop a temporary table, but it is not possible in CTE.
+        4. CTEs are only accessible within the query that defines them, while temporary tables can be accessed by multiple queries within the same batch
+        5. CTEs are more efficient for small data sets, while temporary tables may be more efficient for larger data sets
+        6. Temporary tables can have constraints and indexes, while CTEs cannot.
+        7.  CTEs are useful for making code easier to write, reusing code, and handling complex scenarios like recursive queries. 
+        8. Temporary tables are useful when we need to refer to output multiple times, pass data between stored procedures, or break a query into phases.
+
+1. How do you identify duplicate records in a table?
+
+2. How can you delete duplicate records from a table?
+
+3. What's the difference between UNION and UNION ALL?
+
+4. How do RANK, ROW_NUMBER, and DENSE_RANK differ?
+
+5. How do you find records in one table that don’t exist in another?
+
+6. How can you retrieve the second-highest salary for employees in each department?
+
+7. How do you find employees earning more than their manager?
+
+8. What's the difference between INNER JOIN and LEFT JOIN?
+
+9. How would you update a table to swap gender values?
+
+10. Number of records after different kinds of join?
