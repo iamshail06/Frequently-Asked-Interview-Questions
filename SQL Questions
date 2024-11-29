@@ -1,0 +1,10 @@
+1. In SQL query execution what is the difference between CTE (common table expression) and TEMP tables and when to use?
+
+1. CTE are executed in Memory where as temporary tables are physically created on disk
+2. CTEs exist only for the duration of a particular query, while temporary tables can be used in other queries as many times since these stored on disk
+3. We can explicitly create, alter, or drop a temporary table, but it is not possible in CTE.
+4. CTEs are only accessible within the query that defines them, while temporary tables can be accessed by multiple queries within the same batch
+5. CTEs are more efficient for small data sets, while temporary tables may be more efficient for larger data sets
+6. Temporary tables can have constraints and indexes, while CTEs cannot.
+7.  CTEs are useful for making code easier to write, reusing code, and handling complex scenarios like recursive queries. 
+8. Temporary tables are useful when we need to refer to output multiple times, pass data between stored procedures, or break a query into phases.
